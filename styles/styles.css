@@ -23,7 +23,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 body {
     background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
