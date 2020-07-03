@@ -21,14 +21,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 /* GLOBAL */
 
-html {
-    font-size: 62.5%;
-}
-
 body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
 }
 
 .wrapper {
