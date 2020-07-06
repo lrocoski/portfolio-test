@@ -23,6 +23,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 body {
     background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -112,8 +113,8 @@ nav a {
 nav a:hover {
     padding: 20px 0px;
     margin: 0;
-    font-family: 'Bungee Shade', cursive;
     color: #000000;
+    font-weight: 700;
 }
 
 nav p {
@@ -131,11 +132,13 @@ nav p {
 }
 
 .blue-gradient {
-    background: radial-gradient( circle farthest-corner at 6.3% 19.5%,  rgba(255,237,216,1) 9.7%, rgba(199,218,248,1) 100.3% );
+    background: #fafcfc;
+/*     background: radial-gradient( circle farthest-corner at 6.3% 19.5%,  rgba(255,237,216,1) 9.7%, rgba(199,218,248,1) 100.3% ); */
 }
 
 .purple-gradient {
-    background: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% );
+    background: #fafcfc;
+/*     background: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% ); */
 }
 
 
