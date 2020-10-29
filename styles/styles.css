@@ -50,7 +50,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
-    line-height: 2;
+    /* line-height: 2; */
     font-size: 1.2rem;
     color: rgb(49, 70, 73);
 }
@@ -113,13 +113,14 @@ nav a {
 nav a:hover {
     /* padding: 20px 0px; */
     margin: 0;
-    color: rgb(95, 42, 63);
-    /* font-weight: 700; */
+    /* color: rgb(95, 42, 63); */
+    font-family: 'Bungee Shade', cursive;
 }
 
 nav p {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
+    padding: 10px 0px;
 }
 
 
@@ -140,10 +141,12 @@ nav p {
     background: #fafcfc;
 /*     background: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% ); */
 }
-
+#samples p {
+    line-height: 2;
+}
 
 /* About section */
-
+/* 
 #about img {
     height: 500px;
     width: auto;
@@ -151,7 +154,7 @@ nav p {
 #about p {
     font-size: 1rem;
     padding: 40px;
-}
+} */
 
 
 /* Footer Socials section */
@@ -177,9 +180,21 @@ nav p {
     text-align: center;
 }
 
+.fab {
+    color: rgb(49, 70, 73);
+    font-size: 3rem;
+    padding: 0 15px;
+}
+.socials ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
 footer {
     background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,246,236,1) 39.5%, rgba(100,46,122,0.23) 100.2% );
     padding: 5px;
+    margin-top: 20px;
 }
 
 /* Copyright */
