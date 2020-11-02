@@ -101,7 +101,9 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -117,7 +119,7 @@ nav a:hover {
     font-family: 'Bungee Shade', cursive;
 }
 
-nav p {
+div a p {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     padding: 10px 0px;

@@ -118,10 +118,10 @@ nav a:hover {
     /* font-weight: 700; */
 }
 
-nav p {
+div a p {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    padding: 10px 0;
+    padding: 15px 0px;
 }
 
 /* nav p:hover {
