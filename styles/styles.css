@@ -37,6 +37,7 @@ ul li {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* Typography */
@@ -110,6 +111,7 @@ nav a {
     padding: 0 15px;
     color: #ffffff;
     font-weight: 300;
+    /* transition: all 5s ease-in; */
 }
 
 nav a:hover {
@@ -133,6 +135,7 @@ div a p {
     width: 100%;
     padding: 50px 0;
 }
+
 
 .blue-gradient {
     background: #fafcfc;
@@ -200,3 +203,9 @@ footer {
 }
 
 /* Copyright */
+
+/* Media queries */
+
+@media only screen and (max-width: 420px) {
+
+}
